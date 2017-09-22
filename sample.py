@@ -16,5 +16,6 @@ def fib():
 if __name__ == '__main__':
     for i, num in enumerate(fib()):
         print(num)
+        print('aaaaa')
         if i >= 9:
             break
